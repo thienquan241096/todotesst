@@ -33,7 +33,7 @@ class TodoStoreTaskTest extends TestCase
         $this->assertCount(2, $todo->getTasks());
     }
 
-    public function storeTastTodoEmpty()
+    public function storeTaskTodoEmpty()
     {
         $todo = new TodoService([]);
         $todo->storeTask('tesst 2');
